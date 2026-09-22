@@ -15,7 +15,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 
 export const Route = createFileRoute("/_authenticated/profile")({
-  head: () => ({ meta: [{ title: "Profile · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Profile · ProBuddy ERP For SMEs" }] }),
   component: ProfilePage,
 });
 
@@ -76,7 +76,7 @@ function ProfilePage() {
         <Card className="lg:col-span-1">
           <CardHeader>
             <CardTitle>Account</CardTitle>
-            <CardDescription>Your identity in Faith Automation.</CardDescription>
+            <CardDescription>Your identity in ProBuddy ERP.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-5">
             <div className="flex items-center gap-4">

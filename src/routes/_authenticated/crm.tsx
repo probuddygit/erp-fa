@@ -10,7 +10,7 @@ import { syncLifecycleChain } from "@/lib/crm/workflow";
 
 
 export const Route = createFileRoute("/_authenticated/crm")({
-  head: () => ({ meta: [{ title: "Revenue Lifecycle · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Revenue Lifecycle · ProBuddy ERP For SMEs" }] }),
   component: CrmLayout,
 });
 

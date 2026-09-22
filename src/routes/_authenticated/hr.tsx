@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/_authenticated/hr")({
   head: () => ({
     meta: [
-      { title: "Workforce & Administration · Faith Automation ERP" },
+      { title: "Workforce & Administration · ProBuddy ERP For SMEs" },
       { name: "description", content: "AI-native workforce suite: recruitment, performance, learning, payroll, administration, safety, compliance and analytics." },
     ],
   }),

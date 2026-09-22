@@ -13,7 +13,7 @@ export const Route = createFileRoute("/reset-password")({
   ssr: false,
   head: () => ({
     meta: [
-      { title: "Set new password · Faith Automation ERP" },
+      { title: "Set new password · ProBuddy ERP For SMEs" },
       { name: "robots", content: "noindex" },
     ],
   }),
@@ -67,7 +67,7 @@ function ResetPasswordPage() {
             <div className="grid h-9 w-9 place-items-center rounded-lg bg-primary text-primary-foreground">
               <Zap className="h-4 w-4" strokeWidth={2.5} />
             </div>
-            <div className="font-display font-semibold">Faith Automation</div>
+            <div className="font-display font-semibold">ProBuddy ERP</div>
           </div>
 
           <h1 className="font-display text-2xl font-semibold tracking-tight">Set a new password</h1>

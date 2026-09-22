@@ -14,7 +14,7 @@ import { traceChain } from "@/lib/crm/revenue";
 export const Route = createFileRoute("/_authenticated/crm/registers")({
   head: () => ({
     meta: [
-      { title: "Sales Registers & Traceability · Faith Automation ERP" },
+      { title: "Sales Registers & Traceability · ProBuddy ERP For SMEs" },
       {
         name: "description",
         content:

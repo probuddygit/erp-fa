@@ -16,8 +16,8 @@ const searchSchema = z.object({ redirect: z.string().optional() });
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "Sign in · Faith Automation ERP" },
-      { name: "description", content: "Sign in to Faith Automation's AI-native manufacturing ERP." },
+      { title: "Sign in · ProBuddy ERP For SMEs" },
+      { name: "description", content: "Sign in to ProBuddy ERP for SMEs." },
       { name: "robots", content: "noindex" },
     ],
   }),
@@ -81,18 +81,18 @@ function AuthPage() {
             <Zap className="h-5 w-5" strokeWidth={2.5} />
           </div>
           <div className="leading-tight">
-            <div className="font-display text-lg font-semibold">Faith Automation</div>
-            <div className="text-xs text-primary-foreground/70">BIW Manufacturing ERP</div>
+            <div className="font-display text-lg font-semibold">ProBuddy ERP</div>
+            <div className="text-xs text-primary-foreground/70">For SMEs</div>
           </div>
         </div>
 
         <div className="relative max-w-md space-y-6">
           <h1 className="font-display text-4xl font-semibold leading-tight tracking-tight">
-            The AI-native command center for Body-in-White operations.
+            The AI-native command center for growing businesses.
           </h1>
           <p className="text-primary-foreground/75">
-            Projects, engineering, procurement, production, quality, and finance — unified in one
-            enterprise workspace with an always-on AI assistant.
+            Sales, projects, procurement, inventory, operations, and finance — unified in one
+            intelligent workspace with an always-on AI assistant.
           </p>
           <div className="grid grid-cols-3 gap-3">
             {[
@@ -121,7 +121,7 @@ function AuthPage() {
               <div className="grid h-9 w-9 place-items-center rounded-lg bg-primary text-primary-foreground">
                 <Zap className="h-4 w-4" strokeWidth={2.5} />
               </div>
-              <div className="font-display font-semibold">Faith Automation</div>
+              <div className="font-display font-semibold">ProBuddy ERP</div>
             </div>
 
             <h2 className="font-display text-2xl font-semibold tracking-tight">

@@ -56,7 +56,7 @@ import { WorkforceAnalytics } from "@/components/workforce/analytics-section";
 import { WorkforceCopilot } from "@/components/workforce/copilot-section";
 
 export const Route = createFileRoute("/_authenticated/hr/$section")({
-  head: () => ({ meta: [{ title: "Workforce & Administration · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Workforce & Administration · ProBuddy ERP For SMEs" }] }),
   component: HRSection,
 });
 

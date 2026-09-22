@@ -22,7 +22,7 @@ import { BomImportDialog, BomImportHistory } from "@/components/engineering/bom-
 
 
 export const Route = createFileRoute("/_authenticated/engineering/$section")({
-  head: () => ({ meta: [{ title: "Engineering · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Engineering · ProBuddy ERP For SMEs" }] }),
   component: SectionView,
   notFoundComponent: () => (
     <div className="p-12 text-center text-sm text-muted-foreground">Section not found.</div>

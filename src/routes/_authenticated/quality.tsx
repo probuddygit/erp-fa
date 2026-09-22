@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/_authenticated/quality")({
-  head: () => ({ meta: [{ title: "Quality · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Quality · ProBuddy ERP For SMEs" }] }),
   component: QualityLayout,
 });
 

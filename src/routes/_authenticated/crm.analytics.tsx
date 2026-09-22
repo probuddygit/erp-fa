@@ -21,7 +21,7 @@ import {
 export const Route = createFileRoute("/_authenticated/crm/analytics")({
   head: () => ({
     meta: [
-      { title: "Revenue Analytics · Faith Automation ERP" },
+      { title: "Revenue Analytics · ProBuddy ERP For SMEs" },
       {
         name: "description",
         content:
