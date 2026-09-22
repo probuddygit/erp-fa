@@ -15,7 +15,7 @@ import { StatusPill, Progress, fmtCompact, shortDate } from "@/components/projec
 import { ReallocateDialog } from "@/components/inventory/reallocate-dialog";
 
 export const Route = createFileRoute("/_authenticated/inventory/$section")({
-  head: () => ({ meta: [{ title: "Inventory · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Inventory · ProBuddy ERP For SMEs" }] }),
   component: SectionView,
   notFoundComponent: () => (
     <div className="p-12 text-center text-sm text-muted-foreground">Section not found.</div>

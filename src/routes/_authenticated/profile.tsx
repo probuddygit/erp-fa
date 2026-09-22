@@ -15,7 +15,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 
 export const Route = createFileRoute("/_authenticated/profile")({
-  head: () => ({ meta: [{ title: "Profile · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Profile · ProBuddy ERP For SMEs" }] }),
   component: ProfilePage,
 });
 

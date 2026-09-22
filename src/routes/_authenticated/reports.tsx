@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/_authenticated/reports")({
-  head: () => ({ meta: [{ title: "Reports · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Reports · ProBuddy ERP For SMEs" }] }),
   component: ReportsLayout,
 });
 

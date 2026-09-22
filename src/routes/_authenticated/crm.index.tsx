@@ -30,7 +30,7 @@ import { OPPORTUNITY_STAGES, TONE_HEX, statusLabel, statusTone } from "@/lib/crm
 import { findDuplicateLeads, leadScore, opportunityHealth } from "@/lib/crm/workflow";
 
 export const Route = createFileRoute("/_authenticated/crm/")({
-  head: () => ({ meta: [{ title: "Revenue Dashboard · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Revenue Dashboard · ProBuddy ERP For SMEs" }] }),
   component: CrmDashboard,
 });
 

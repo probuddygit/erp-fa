@@ -9,7 +9,7 @@ import {
 } from "recharts";
 
 export const Route = createFileRoute("/_authenticated/finance/")({
-  head: () => ({ meta: [{ title: "Finance Dashboard · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Finance Dashboard · ProBuddy ERP For SMEs" }] }),
   component: FinanceDashboard,
 });
 

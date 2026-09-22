@@ -43,7 +43,7 @@ export const Route = createFileRoute("/_authenticated/ai-assistant")({
   }),
   head: () => ({
     meta: [
-      { title: "AI Copilot · Faith Automation ERP" },
+      { title: "AI Copilot · ProBuddy ERP For SMEs" },
       {
         name: "description",
         content:

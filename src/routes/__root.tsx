@@ -79,17 +79,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Faith Automation ERP — BIW Manufacturing Platform" },
+      { title: "ProBuddy ERP For SMEs" },
       {
         name: "description",
         content:
-          "AI-native, project-centric ERP for Body-in-White manufacturing and industrial automation. Built by ProBuddy Software.",
+          "AI-native, project-centric ERP for small and medium enterprises. Built by ProBuddy Software.",
       },
       { name: "author", content: "ProBuddy Software IT Services" },
-      { property: "og:title", content: "Faith Automation ERP" },
+      { property: "og:title", content: "ProBuddy ERP For SMEs" },
       {
         property: "og:description",
-        content: "AI-native manufacturing ERP for BIW and industrial automation.",
+        content: "AI-native ERP for small and medium enterprises.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

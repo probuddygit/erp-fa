@@ -183,10 +183,10 @@ export function AppSidebar() {
           {!collapsed && (
             <div className="min-w-0 leading-tight">
               <div className="truncate font-display text-sm font-semibold text-sidebar-foreground">
-                Faith Automation
+                ProBuddy ERP
               </div>
               <div className="truncate text-[11px] text-sidebar-foreground/60">
-                BIW Manufacturing ERP
+                For SMEs
               </div>
             </div>
           )}

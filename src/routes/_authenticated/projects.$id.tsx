@@ -80,7 +80,7 @@ import {
 } from "@/lib/projects/intelligence";
 
 export const Route = createFileRoute("/_authenticated/projects/$id")({
-  head: () => ({ meta: [{ title: "Project · Faith Automation ERP" }] }),
+  head: () => ({ meta: [{ title: "Project · ProBuddy ERP For SMEs" }] }),
   component: ProjectDetail,
   notFoundComponent: () => (
     <div className="p-12 text-center">
