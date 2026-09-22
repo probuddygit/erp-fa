@@ -76,7 +76,7 @@ function ProfilePage() {
         <Card className="lg:col-span-1">
           <CardHeader>
             <CardTitle>Account</CardTitle>
-            <CardDescription>Your identity in Faith Automation.</CardDescription>
+            <CardDescription>Your identity in ProBuddy ERP.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-5">
             <div className="flex items-center gap-4">
